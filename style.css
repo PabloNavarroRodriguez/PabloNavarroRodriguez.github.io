@@ -1,0 +1,34 @@
+body{
+    background-color: bisque;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+fieldset{
+    background-color: azure;
+}
+
+span{
+    font-size: small;
+    font-weight: bold;
+}
+
+
+fieldset{
+    margin-right: 70%;
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#submit{
+    font-weight: bold;
+    border: 3px solid;
+    background: rgb(114,207,90);
+    background: linear-gradient(9deg, rgba(114,207,90,1) 35%, rgba(105,254,137,1) 100%);
+}
+
+p{
+    font-size: 10px
+}
