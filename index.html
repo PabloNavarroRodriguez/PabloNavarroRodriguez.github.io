@@ -1,60 +1,129 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h2>Formulario usabilidad</h2>
-    <div>
-        <img src="20295376601_b7aa1f688b_o.png" alt="" width="200px"> <br>
-        <p class="attribution">"<a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/50252662@N04/20295376601">#PROGRESAR Presentación del formulario PS 2.68</a>" <br> by <a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/50252662@N04">ANSESGOB</a> is licensed under <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-sa/2.0/?ref=openverse">CC BY-SA 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img></a>. </p>
-    </div>
-    <fieldset>
-        <legend>Registro de usuario</legend>
-        <span>Los campos con * son obligarios</span>
-        <form action="" name="form">
-            <br>
-            <label for="">*Nombre</label><br>
-            <input type="text" required><br>
-            
-            <label for="">*Apellidos</label><br>
-            <input type="text" required><br>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+	<title>Floristería Sakura</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+		
+	
+  <!-- 
+	//////////////////////////////////////////////////////
 
-            <label for="">*Email</label><br>
-            <input type="email" required><br>
-            
-            <label for="">*Contraseña</label><br>
-            <input type="password" required><br>
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-            <label for="">*Confirmar contraseña</label><br>
-            <input type="password" required><br>
-            
-            <label for="">*Fecha de nacimiento</label><br>
-            <input type="date" required><br>
+	//////////////////////////////////////////////////////
+	 -->
 
-            <label for="">Localidad</label><br>
-            <input type="text" ><br>
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-            <label for="">Provincia</label><br>
-            <input type="text" ><br>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-            <label for="">Dirección</label><br>
-            <input type="text" ><br>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-            <label for="">Teléfono</label><br>
-            <input type="number"><br>
+	<link rel="stylesheet" href="css/style.css">
 
-            <br>
 
-            <input type="submit" value="Crear" id="submit">
-            <input type="reset" value="Borrar datos" id="reset">
-        </form>
-        
-    </fieldset>
-        
-</body>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div class="box-wrap">
+		<header role="banner" id="fh5co-header">
+			<div class="container">
+				<nav class="navbar navbar-default">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="fh5co-navbar-brand">
+								<a class="fh5co-logo" href="index.html">Sakura Shop</a>
+							</div>
+						</div>
+						<div class="col-md-9 main-nav">
+							<ul class="nav text-right">
+								<li class="active"><a href="index.html"><span>Inicio</span></a></li>
+								<li><a href="services.html">Packs</a></li>
+								<li><a href="product.html">Productos</a></li>
+								<li><a href="about.html">Encargos</a></li>
+								<li><a href="contact.html">Contacto</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+		  </div>
+		</header>
+		<!-- END: header -->
+		<div class="owl-carousel owl-carousel1 owl-carousel-fullwidth fh5co-light-arrow animate-box" data-animate-effect="fadeIn">
+			<div class="item"><a href="images/Benji&florRosa.jpg" class="image-popup"><img src="images/Benji&florRosa.jpg" alt="image" width="100" height="630"></a></div>
+			<div class="item"><a href="images/img_large_2.jpg" class="image-popup"><img src="images/img_large_2.jpg" alt="image"></a></div>
+			<div class="item"><a href="images/img_large_3.jpg" class="image-popup"><img src="images/img_large_3.jpg" alt="image"></a></div>
+			<div class="item"><a href="images/img_large_4.jpg" class="image-popup"><img src="images/img_large_4.jpg" alt="image"></a></div>
+			<div class="item"><a href="images/img_large_5.jpg" class="image-popup"><img src="images/img_large_5.jpg" alt="image"></a></div>
+		</div>
+		<div id="fh5co-media-section">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section">
+						<h3>Welcome to Narrow</h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					</div>
+				</div>
+				
+	<!-- END: box-wrap -->
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Owl carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Parallax Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
