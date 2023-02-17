@@ -15,9 +15,39 @@ body {
   font-family: "Open Sans", Arial, serif;
   line-height: 1.8;
   font-size: 20px;
-  background: #f1c9ef;
+  background: #ffe5f0;
   font-weight: 300;
 }
+/* =======================================================
+        Css de contact.html De Thony (es decir yo)
+ ººººººLINEA 775 A 789 LO QUITE YO*/
+
+ #inputForm:focus{
+  width: 350px;
+  height: 50px;
+}
+
+.btn-primary{
+  transition: transform .2s;
+}
+
+.btn-primary:hover{
+  transform: scale(1.1);
+}
+
+
+#inputForm
+{
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid pink;
+  background-color: #f0f6ff;
+  color:#8b38d4;
+
+}
+
+
+/*
+* ======================================================= */
 
 a {
   color: #a980cd;
@@ -110,6 +140,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+.sakura-logo{
+  top: -70px;
+  left: -250px;
+  position: absolute;
+}
+
 #fh5co-header .fh5co-navbar-brand .fh5co-logo:focus, #fh5co-header .fh5co-navbar-brand .fh5co-logo:hover {
   text-decoration: none !important;
 }
@@ -388,6 +425,10 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.8);
   font-weight: 300;
   line-height: 38px;
+}
+
+.banner{
+  width: 100%;;
 }
 
 .section-overlay {
@@ -745,21 +786,22 @@ input[type="text"] {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+/* ESTO LO HIZO THONY
 .btn.btn-primary {
   background: #a980cd;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
-}
-.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+} */
+/* .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
   background: #a980cd;
-}
-.btn:hover, .btn:active, .btn:focus {
+} */
+/* .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
   color: #fff;
   outline: none !important;
-}
+} */
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent;
 }
